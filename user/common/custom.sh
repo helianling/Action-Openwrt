@@ -21,7 +21,10 @@ svn checkout https://github.com/coolsnowwolf/lede/trunk/package/lean/redsocks2  
 svn checkout https://github.com/coolsnowwolf/lede/trunk/package/lean/tcpping                             package/tcpping
 svn checkout https://github.com/coolsnowwolf/lede/trunk/package/lean/microsocks                          package/microsocks
 git clone https://github.com/xiaoqingfengATGH/luci-theme-infinityfreedom.git                             package/luci-theme-infinityfreedom
-git clone https://github.com/yangsongli/luci-theme-atmaterial.git                                        package/luci-theme-atmaterial   
+git clone https://github.com/yangsongli/luci-theme-atmaterial.git                                        package/luci-theme-atmaterial
+git clone https://github.com/jerrykuku/luci-theme-argon.git -b 18.06                                     package/luci-theme-argon
+git clone https://github.com/tty228/luci-app-serverchan.git                                              package/luci-app-serverchan
+git clone https://github.com/vernesong/OpenClash.git -b master                                           package/luci-app-openclash 
 
       
 
